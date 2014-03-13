@@ -1,0 +1,33 @@
+{
+  "name": "oracle-adapter",
+  "description": "oracle adapter attempt",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ryanwilliamquinn/oracle-adapter",
+  "author": {
+    "name": "Homes.com",
+    "email": "webdev@homes.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanwilliamquinn/oracle-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanwilliamquinn/oracle-adapter/issues"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "oracle": "0.3.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-mocha-test": "0.9.0",
+    "grunt-mocha-cov": "~0.2.1",
+    "should": "3.1.2"
+  }
+}
